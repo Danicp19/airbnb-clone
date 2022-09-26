@@ -1,21 +1,20 @@
-# AirBnb website Clone
+# Airbnb website Clone
 
-clone of airbnb web app .
+clone of airbnb web app.
 
 ## TechStack
 
 - NextJS
 - Typescript
 - TailwindCss
-- HeroIcons////
-- MapBox////
-
+<!-- - HeroIcons////
+- MapBox//// -->
 - Eslint
 - Prettier
 
-## Deployment
+<!-- ## Deployment
 
-- Vercel
+- Vercel -->
 
 ## Copyright
 
