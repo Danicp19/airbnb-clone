@@ -6,7 +6,8 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <div className={styles.container}>
-  <h1 className="text-3xl font-bold underline">
+  
+    <h1 className="text-3xl font-bold m-80 underline">
       Hello world! 1
     </h1>
     <Footer />
