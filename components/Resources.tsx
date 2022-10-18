@@ -59,14 +59,17 @@ const Resources = () => {
           <div className=" fixed bottom-0  bg-white w-full ">
             <div className="flex " >
               <button className=" flex justify-start m-8" onClick={handleClose}>
-                X
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+
               </button>
-              <div className=" grid grid-cols-1 lg:grid-cols-4">
+              <div className=" grid grid-cols-1 lg:grid-cols-4 lg:m-4  ">
 
                 {INFO.map(({ title, data }, index) => (
                   <div
                     key={title}
-                    className={`${index !== 0 && 'border-t border-gray-200 lg:border-none'
+                    className={`${index !== 0 && 'border-t border-gray-200 mr-10 lg:border-none'
                       } py-6 md:py-8`}
                   >
                     <span className="inline-block mb-4 text-sm font-medium">{title}</span>
