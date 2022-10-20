@@ -53,11 +53,11 @@ const Resources = () => {
   };
   return (
     // transform translate-x--2/4  translate-y--2/4 
-    <div>
+    <div   >
       {!close ? (
-        <div className=" flex justify-center  "  >
+        <div className=" flex justify-center "  >
           <div className=" fixed bottom-0  bg-white w-full ">
-            <div className="flex " >
+            <div className="flex  " >
               <button className=" flex justify-start m-8" onClick={handleClose}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -69,7 +69,7 @@ const Resources = () => {
                 {INFO.map(({ title, data }, index) => (
                   <div
                     key={title}
-                    className={`${index !== 0 && 'border-t border-gray-200 mr-10 lg:border-none'
+                    className={`${index !== 0 && ' border-t border-gray-200 mr-24 lg:border-none'
                       } py-6 md:py-8`}
                   >
                     <span className="inline-block mb-4 text-sm font-medium">{title}</span>

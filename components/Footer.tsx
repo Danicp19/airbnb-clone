@@ -3,9 +3,6 @@ import Image from 'next/image';
 import React, { useState, useEffect } from "react";
 import Resources from './Resources';
 
-// import { GlobeAltIcon } from '@heroicons/react/outline';
-
-
 
 const Footer = () => {
   const [toggle, setToggle] = useState(false);
@@ -16,24 +13,13 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-100 border-t border-gray-200 ">
-      <div className="pr-10 pl-10">
+    <footer className="bg-gray-100 border-t border-gray-200 z-50 ">
+      <div className="pr-20 pl-20 ">
 
-        <div className="flex flex-col items-center justify-between py-5 text-sm text-gray-400  border-gray-200 lg:py-6 lg:flex-row">
+        <div className=" flex flex-col items-center justify-between py-5 text-sm text-gray-400  border-gray-200 lg:py-6 lg:flex-row">
           <div className="flex flex-col items-center order-last lg:flex-row lg:order-none">
-            <span className="mr-0 text-center lg:mr-4">© 2022 Airbnb, Inc.</span>
-            {/* <span className="mb-2 mr-0 lg:mr-8 lg:mb-0">
-              | Clone by{' '}
-              <a
-                href="https://www.danielacamargo.me/"
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-primary hover:underline"
-              >
-                Daniela Camargo
-              </a>{' '}
-              |
-            </span> */}
+            <span className=" mr-0 text-center lg:mr-4">© 2022 Airbnb, Inc.</span>
+        
             <ul className="flex space-x-2 list-disc list-none">
               <span >·</span>
               <li className="hover:underline ">
@@ -97,44 +83,6 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-            {/* <ul className="flex space-x-6">
-              <li className="flex items-center">
-                <Link href="/">
-                  <a>
-                    <Image
-                      src="/assets/icons/facebook.svg"
-                      alt="facebook"
-                      height={16}
-                      width={16}
-                    />
-                  </a>
-                </Link>
-              </li>
-              <li className="flex items-center">
-                <Link href="/">
-                  <a>
-                    <Image
-                      src="/assets/icons/twitter.svg"
-                      alt="facebook"
-                      height={16}
-                      width={16}
-                    />
-                  </a>
-                </Link>
-              </li>
-              <li className="flex items-center">
-                <Link href="/">
-                  <a>
-                    <Image
-                      src="/assets/icons/instagram.svg"
-                      alt="facebook"
-                      height={16}
-                      width={16}
-                    />
-                  </a>
-                </Link>
-              </li>
-            </ul> */}
           </div>
         </div>
       </div>

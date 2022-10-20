@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Footer from '@/components/Footer';
 import Explore from '@/components/Explore'
 import Header from '@/components/Header'
+import Types from '@/components/Types'
 
 
 
@@ -17,7 +18,7 @@ export default function Home() {
     <div >
       <Header />
       <div className={styles.container}>
-
+        <Types />
         <Explore />
       </div>
       {/* 
