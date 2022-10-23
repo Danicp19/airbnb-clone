@@ -11,9 +11,6 @@ clone of airbnb web app.
 - Eslint
 - Prettier
 
-<!-- ## Deployment
-
-- Vercel -->
 
 ## Copyright
 
