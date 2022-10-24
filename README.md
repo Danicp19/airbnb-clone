@@ -1,4 +1,5 @@
 # Airbnb website Clone
+https://airbnb-clone-danicp19.vercel.app/
 
 clone of airbnb web app.
 
@@ -7,14 +8,9 @@ clone of airbnb web app.
 - NextJS
 - Typescript
 - TailwindCss
-<!-- - HeroIcons////
-- MapBox//// -->
 - Eslint
 - Prettier
 
-<!-- ## Deployment
-
-- Vercel -->
 
 ## Copyright
 
